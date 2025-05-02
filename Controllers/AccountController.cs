@@ -121,6 +121,12 @@ namespace WebApplication12.Controllers
 			return RedirectToAction("index", "home");
 		}
 
+		[HttpGet]
+		[AllowAnonymous]
+		public IActionResult AccessDenied()
+		{
+			return View();
+		}
 
 
 
