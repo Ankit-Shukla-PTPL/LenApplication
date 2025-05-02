@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\administration\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\administration\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdministrationController.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AdministrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdministrationController.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AdministrationController.cs",
+              "RelativeToolTip": "Controllers\\AdministrationController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:35:26.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T10:09:42.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:32:32.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:43:16.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIA0wC4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T08:27:23.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T10:09:49.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Administration\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Administration\\CreateRole.cshtml",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Administration\\CreateRole.cshtml",
+              "RelativeToolTip": "Views\\Administration\\CreateRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:37:34.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T11:14:49.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:06:23.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Models\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationRole.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Models\\ApplicationRole.cs",
+              "RelativeToolTip": "Models\\ApplicationRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:07:52.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:19:47.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T08:28:04.094Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

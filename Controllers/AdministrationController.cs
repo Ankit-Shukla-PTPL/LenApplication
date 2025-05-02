@@ -1,0 +1,146 @@
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using WebApplication12.Data;
+using WebApplication12.Models;
+
+namespace WebApplication12.Controllers
+{
+	public class AdministrationController : Controller
+	{
+		private readonly RoleManager<ApplicationRole> _roleManager;
+		private readonly UserManager<ApplicationUser> _userManager;
+		private readonly ApplicationDbContext dbcontext;
+		public AdministrationController(RoleManager<ApplicationRole> roleManager, ApplicationDbContext db, UserManager<ApplicationUser> userManager)
+		{
+			_roleManager = roleManager;
+			dbcontext = db;
+			_userManager = userManager;
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> Index()
+		{
+			var roles = await _roleManager.Roles.ToListAsync();
+			return View(roles);
+		}
+
+		[HttpGet]
+		public IActionResult CreateRole()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> CreateRole(CreateRoleViewModel roleModel)
+		{
+			if (ModelState.IsValid)
+			{
+				// Check if the role already exists
+				bool roleExists = await _roleManager.RoleExistsAsync(roleModel?.RoleName);
+				if (roleExists)
+				{
+					ModelState.AddModelError("", "Role Already Exists");
+				}
+				else
+				{
+					// Create the role
+					// We just need to specify a unique role name to create a new role
+					ApplicationRole identityRole = new ApplicationRole
+					{
+						Name = roleModel?.RoleName,
+						Description = roleModel?.Description
+					};
+					// Saves the role in the underlying AspNetRoles table
+					IdentityResult result = await _roleManager.CreateAsync(identityRole);
+					if (result.Succeeded)
+					{
+						return RedirectToAction("Index");
+					}
+					foreach (IdentityError error in result.Errors)
+					{
+						ModelState.AddModelError("", error.Description);
+					}
+				}
+			}
+			return View(roleModel);
+		}
+		[HttpGet]
+		public async Task<IActionResult> EditRole(string roleId)
+		{
+			//First Get the role information from the database
+			ApplicationRole role = (ApplicationRole)await _roleManager.FindByIdAsync(roleId);
+			if (role == null)
+			{
+				// Handle the scenario when the role is not found
+				return View("Error");
+			}
+			//Populate the EditRoleViewModel from the data retrived from the database
+			var model = new EditRoleViewModel
+			{
+				Id = role.Id,
+				RoleName = role.Name,
+				Description = role.Description
+				// You can add other properties here if needed
+			};
+			return View(model);
+		}
+		[HttpPost]
+		public async Task<IActionResult> EditRole(EditRoleViewModel model)
+		{
+			if (ModelState.IsValid)
+			{
+				ApplicationRole role = (ApplicationRole)await _roleManager.FindByIdAsync(model.Id);
+				if (role == null)
+				{
+					// Handle the scenario when the role is not found
+					ViewBag.ErrorMessage = $"Role with Id = {model.Id} cannot be found";
+					return View("NotFound");
+				}
+				else
+				{
+					role.Name = model.RoleName;
+					role.Description = model.Description;
+					// Update other properties if needed
+					var result = await _roleManager.UpdateAsync(role);
+					if (result.Succeeded)
+					{
+						return RedirectToAction("Index"); // Redirect to the roles list
+					}
+					foreach (var error in result.Errors)
+					{
+						ModelState.AddModelError("", error.Description);
+					}
+					return View(model);
+				}
+			}
+			return View(model);
+
+		}
+		[HttpPost]
+		public async Task<IActionResult> DeleteRole(string roleId)
+		{
+			var role = await _roleManager.FindByIdAsync(roleId);
+			if (role == null)
+			{
+				// Role not found, handle accordingly
+				ViewBag.ErrorMessage = $"Role with Id = {roleId} cannot be found";
+				return View("NotFound");
+			}
+			var result = await _roleManager.DeleteAsync(role);
+			if (result.Succeeded)
+			{
+				// Role deletion successful
+				return RedirectToAction("Index"); // Redirect to the roles list page
+			}
+			foreach (var error in result.Errors)
+			{
+				ModelState.AddModelError("", error.Description);
+			}
+			// If we reach here, something went wrong, return to the view
+			return View("Index", await _roleManager.Roles.ToListAsync());
+		}
+
+
+	}
+}
