@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\administration\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\administration\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\views\\administration\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:views\\administration\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33BFDC7B-7483-4208-A9A9-476F0B41A74F}|WebApplication12.csproj|d:\\ankit_shukla\\l-application\\lenapplication\\models\\editroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,59 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAmwH0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T12:34:18.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditUsersInRole.cshtml",
-              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Administration\\EditUsersInRole.cshtml",
-              "RelativeDocumentMoniker": "Views\\Administration\\EditUsersInRole.cshtml",
-              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Administration\\EditUsersInRole.cshtml",
-              "RelativeToolTip": "Views\\Administration\\EditUsersInRole.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T12:30:45.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditRole.cshtml",
-              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Administration\\EditRole.cshtml",
-              "RelativeDocumentMoniker": "Views\\Administration\\EditRole.cshtml",
-              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Views\\Administration\\EditRole.cshtml",
-              "RelativeToolTip": "Views\\Administration\\EditRole.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAwwC4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T12:27:25.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T10:05:11.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AdministrationController.cs",
               "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AdministrationController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdministrationController.cs",
               "ToolTip": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Controllers\\AdministrationController.cs",
               "RelativeToolTip": "Controllers\\AdministrationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T12:25:28.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "EditRoleViewModel.cs",
               "DocumentMoniker": "D:\\ANKIT_SHUKLA\\L-Application\\LenApplication\\Models\\EditRoleViewModel.cs",
               "RelativeDocumentMoniker": "Models\\EditRoleViewModel.cs",
@@ -102,8 +68,7 @@
               "RelativeToolTip": "Models\\EditRoleViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T12:25:14.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T12:25:14.905Z"
             }
           ]
         }
